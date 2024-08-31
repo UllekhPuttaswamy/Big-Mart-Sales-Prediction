@@ -12,7 +12,6 @@ This project aims to predict the sales of items in various outlets of Big Mart u
 - [Usage](#usage)
 - [Results](#results)
 
-
 ## Project Overview
 
 Big Mart operates several outlets and sells a variety of products. The goal of this project is to predict the sales of each product based on historical data, outlet characteristics, and product attributes. The XGBoost algorithm was selected for its performance in handling structured data. The project also includes a user interface for easy interaction with the model, as well as a Power BI dashboard for visualizing data insights.
@@ -36,18 +35,18 @@ The XGBoost algorithm was used for prediction. Key steps included:
 ## Web Application
 
 A Flask web application was developed to provide a user-friendly interface for predictions. Users can input item details, and the model predicts the sales.
+
 ### Form
 
 Users can input the item details in the form below to get predictions.
 
-![UI Form](ui_form.png)
+![UI Form](Screenshots/UI%20Form.png)
 
 ### Prediction
 
 After submitting the form, the predicted sales are displayed on the results page.
 
-![UI Results](ui_results.png)
-
+![UI Results](Screenshots/UI%20Results.png)
 
 ## Power BI Dashboard
 
@@ -57,8 +56,8 @@ An interactive Power BI dashboard was created to visualize insights from the dat
 - Sales by Item Type
 - Outlet Size Analysis
 - Sales Distribution
-  
-![Power BI Dashboard](dashboard_screenshot.png)
+
+![Power BI Dashboard](Screenshots/Dashboard%20%20Screenshot.png)
 
 [View the Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDVkMWU4ZWEtMTk3YS00MGVjLTkxN2MtNjYxZTRmNDYyMmZjIiwidCI6IjcyNmMyZWUzLWY3NmQtNDA1OS05OWNhLWUxOTI3YWIyMmM2NiJ9)
 
@@ -71,6 +70,3 @@ An interactive Power BI dashboard was created to visualize insights from the dat
 ## Results
 
 The model successfully predicts sales with a reasonable level of accuracy. The Power BI dashboard provides valuable insights into the sales patterns and outlet characteristics.
-
-
-
